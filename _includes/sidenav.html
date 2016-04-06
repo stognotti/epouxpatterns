@@ -1,11 +1,11 @@
-side nav
+
 {% assign url_parts = page.url | split: '/' %}
 {% assign url_parts_size = url_parts | size %}
 {% assign rm = url_parts | last %}
 {% assign cat_list = "" | split:"|"  %}
 {% capture base_url %}{{ '/docs/' }}{{ url_parts[2] }}{% endcapture %}
-<p>v13: {{base_url}}</p>
-<ul>
+<p>v14: {{base_url}}</p>
+
 {% assign sorted_pages = site.pages | sort:"path" %}
 {% for node in sorted_pages %}
 {{node.url}}
@@ -38,7 +38,7 @@ side nav
     {% endif %}
   {% endif %}
 {% endfor %}
-</ul>
+
 
 
 <nav class="pl-sidebar">
@@ -47,7 +47,7 @@ side nav
       <li class="category">{{c}}</li>
         {% for p in sorted_pages %}
           {% if p.url contains c %}
-            {% unless show_in_nav == false %}
+            {% unless p.show_in_nav == false %}
               <li><a href='{{p.url}}'>{{p.title}}</a> </li>
             {% endunless %}
           {% endif %}
