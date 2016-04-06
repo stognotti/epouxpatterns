@@ -4,7 +4,7 @@
 {% assign rm = url_parts | last %}
 {% assign cat_list = "" | split:"|"  %}
 {% capture base_url %}{{ '/docs/' }}{{ url_parts[2] }}{% endcapture %}
-<p>v14: {{base_url}}</p>
+<p>v15: {{base_url}}</p>
 
 {% assign sorted_pages = site.pages | sort:"path" %}
 {% for node in sorted_pages %}
@@ -14,7 +14,6 @@
     {% assign node_url_parts_size = node_url_parts | size %}
     {% assign filename = node_url_parts | last %}
   {{url_parts_size}} and {{node_url_parts_size}} and {{filename}}  
-    {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
    {% capture cate %}{{ node_url_parts | pop | last }}{% endcapture %}
       <li><a href='{{node.url}}'>{{node.title}}</a>   
       {% unless base_url contains cate %}
@@ -35,7 +34,7 @@
          {% endif %}
       {% endunless %}
        </li>
-    {% endif %}
+    
   {% endif %}
 {% endfor %}
 
