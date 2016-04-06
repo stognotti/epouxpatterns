@@ -15,7 +15,11 @@ side nav
   {{url_parts_size}} and {{node_url_parts_size}} and {{filename}}  
     {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
    {% capture cate %}{{ node_url_parts | pop | last }}{% endcapture %}
-      <li><a href='{{node.url}}'>{{node.title}}</a>    {{ cate }}</li>
+      <li><a href='{{node.url}}'>{{node.title}}</a>   
+      {% if base_url contains cate %}
+       {{ cate }}
+       {% endif %}
+       </li>
     {% endif %}
   {% endif %}
 {% endfor %}
