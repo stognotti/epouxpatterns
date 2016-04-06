@@ -24,11 +24,12 @@ side nav
         {% for item in cat_list %}
           {% if found == 0 and item == cate %}
               {% assign found = 1 %}
-              {% assign cat_list = cat_list | push: item %}
-              added {{ cate }}
           {% endif %}
         {% endfor %}
-        
+        {% if found == 0 %}
+            {% assign cat_list = cat_list | push: item %}
+            added {{ cate }}
+         {% endif %}
       {% endunless %}
        </li>
     {% endif %}
