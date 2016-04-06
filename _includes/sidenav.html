@@ -3,7 +3,7 @@ side nav
 {% assign url_parts_size = url_parts | size %}
 {% assign rm = url_parts | last %}
 {% capture base_url %}{{ '/docs/' }}{{ url_parts[2] }}{% endcapture %}
-<p>v2: {{base_url}}</p>
+<p>v3: {{base_url}}</p>
 <ul>
 {% for node in site.pages %}
 {{node.url}}
@@ -12,7 +12,7 @@ side nav
     {% assign node_url_parts_size = node_url_parts | size %}
     {% assign filename = node_url_parts | last %}
   {{url_parts_size}} and {{node_url_parts_size}} and {{filename}}  
-    {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
+    {% if url_parts_size <= node_url_parts_size and filename != 'index.html' %}
       <li><a href='{{node.url}}'>{{node.title}}</a></li>
       {% else %}
       <li>{{node.url}}</li>
