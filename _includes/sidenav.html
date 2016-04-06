@@ -2,8 +2,9 @@ side nav
 {% assign url_parts = page.url | split: '/' %}
 {% assign url_parts_size = url_parts | size %}
 {% assign rm = url_parts | last %}
+{% assign cat_list = "" %}
 {% capture base_url %}{{ '/docs/' }}{{ url_parts[2] }}{% endcapture %}
-<p>v10: {{base_url}}</p>
+<p>v11: {{base_url}}</p>
 <ul>
 {% assign sorted_pages = site.pages | sort:"path" %}
 {% for node in sorted_pages %}
@@ -18,6 +19,16 @@ side nav
       <li><a href='{{node.url}}'>{{node.title}}</a>   
       {% unless base_url contains cate %}
         {{ cate }}
+        
+        {% assign found = 0 %}
+        {% for item in cat_list %}
+          {% if found == 0 and item == cate %}
+              {% assign found = 1 %}
+              {% assign cat_list = cat_list | push: item %}
+              added {{ cate }}
+          {% endif %}
+        {% endfor %}
+        
       {% endunless %}
        </li>
     {% endif %}
