@@ -39,3 +39,15 @@ side nav
   {% endif %}
 {% endfor %}
 </ul>
+
+
+<ul>
+{% for c in cat_list %}
+<li class="category">{{c}}</li>
+ {% for p in sorted_pages %}
+    {% if p.url contains c %}
+      <li><a href='{{p.url}}'>{{p.title}}</a> </li>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
