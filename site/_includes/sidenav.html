@@ -14,6 +14,8 @@ side nav
   {{url_parts_size}} and {{node_url_parts_size}} and {{filename}}  
     {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
       <li><a href='{{node.url}}'>{{node.title}}</a></li>
+      {% else %}
+      <li>{{node.url}}</li>
     {% endif %}
   {% endif %}
 {% endfor %}
