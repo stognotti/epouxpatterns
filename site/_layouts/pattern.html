@@ -1,4 +1,12 @@
 {% include header.html %}
 {% include topnav.html %}
-{{content}}
+ <div class="pl-container">
+   {% include sidenav.html %}     
+        <section class="pl-content">
+            {% if page.preview == true %}
+                <div class="pl-preview-header">This document is a preview.</div>
+            {% endif %}
+            {{ content }}
+        </section>
+    </div>
 {% include footer.html %}
