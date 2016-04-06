@@ -1,2 +1,8 @@
-name: Hank Quinlan, Horrible Cop
+name: EPO UX Patterns library
 markdown: kramdown
+
+email: cbs@epo.org?subject=UX Patterns Library
+# Repository information, which is used for links like "View on Github"
+repository:
+name: simon-eastwood/epouxpatterns
+url: https://github.com/simon-eastwood/epouxpatterns
