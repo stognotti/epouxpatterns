@@ -2,8 +2,8 @@ side nav
 {% assign url_parts = page.url | split: '/' %}
 {% assign url_parts_size = url_parts | size %}
 {% assign rm = url_parts | last %}
-{% assign base_url = page.url | replace: rm %}
-<p>{{base_url}}</p>
+{% assign base_url = '/docs/' | append url_parts[1] %}
+<p>v1: {{base_url}}</p>
 <ul>
 {% for node in site.pages %}
 {{node.url}}
