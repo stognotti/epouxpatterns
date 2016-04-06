@@ -2,7 +2,7 @@ side nav
 {% assign url_parts = page.url | split: '/' %}
 {% assign url_parts_size = url_parts | size %}
 {% assign rm = url_parts | last %}
-{% assign cat_list = "" %}
+{% assign cat_list = "" | split:"|"  %}
 {% capture base_url %}{{ '/docs/' }}{{ url_parts[2] }}{% endcapture %}
 <p>v12: {{base_url}}</p>
 <ul>
@@ -30,6 +30,7 @@ side nav
         {% endfor %}
         {% if found == 0 %}
             {% assign cat_list = cat_list | push: cate %}
+          
             added {{ cate }} now {{ cat_list }}
          {% endif %}
       {% endunless %}
