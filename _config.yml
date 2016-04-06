@@ -20,10 +20,8 @@ email: cbs@epo.org?subject=UX Patterns Library
 
 
 repository:
-
-  name: simon-eastwood/epouxpatterns
-
-  url: https://github.com/simon-eastwood/epouxpatterns
+name: simon-eastwood/epouxpatterns
+url: https://github.com/simon-eastwood/epouxpatterns
 
 
 
