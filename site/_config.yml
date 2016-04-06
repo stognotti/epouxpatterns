@@ -3,6 +3,15 @@ name: EPO UX Patterns library
 
 # Markdown parsing configuration
 markdown: kramdown
+kramdown:
+auto_ids: true
+parse_block_html: true
+
+# All links in the design library will start with this baseurl
+baseurl: "/epouxpatterns"
+
+# The url for the home page of the design library
+homeurl: "/epouxpatterns"
 
 
 
