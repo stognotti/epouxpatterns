@@ -3,38 +3,6 @@ name: EPO UX Patterns library
 
 # Markdown parsing configuration
 markdown: kramdown
-kramdown:
-auto_ids: true
-parse_block_html: true
-
-
-# All links in the design library will start with this baseurl
-baseurl: "/epouxpatterns"
-
-# The url for the home page of the design library
-homeurl: "/epouxpatterns"
-
-
-email: cbs@epo.org?subject=UX Patterns Library
-# Repository information, which is used for links like "View on Github"
-
-
-repository:
-name: simon-eastwood/epouxpatterns
-url: https://github.com/simon-eastwood/epouxpatterns
-
-
-
-# Set the default layout for everything in the docs folder to _layouts/pattern.html
-defaults:
-- scope:
-path: "docs"
-values:
-layout: "pattern"
-- scope:
-path: "docs/guides"
-values:
-layout: "guide"
 
 
 
