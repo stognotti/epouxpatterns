@@ -2,4 +2,48 @@
 layout: pattern
 title: Button
 ---
-this is the button pattern
+<div class="pl-pattern">
+<h3 id="button-styles">Button styles</h3>
+<p>There are 6 button styles:</p>
+<ul>
+<li><strong>Default</strong>, the general button style.</li>
+<li><strong>Primary</strong>, indicates the critical, or most important action on a form/page.</li>
+<li><strong>Danger</strong>, indicates a dangerous, generally destructive action, such as deleting.</li>
+<li><strong>Success</strong>, indicates a positive action.</li>
+<li><strong>Warning</strong>, indicates an action that may have some side effects, such as giving a user admin access.</li>
+<li><strong>Link</strong>, used for non-critical actions. Useful for keeping the interface simple.</li>
+</ul>
+<p>All buttons are prefixed with the <code>btn</code> class. The <code>btn</code> class can be applied to any element. Try to use <code>&lt;button&gt;</code> elements when an action won’t change the URL/route, and <code>&lt;a&gt;</code> elements when the action will change the URL/route.</p>
+<div class="pl-preview">
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-link">Link</button>
+</div>
+<div class="highlight">
+<pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-default&quot;</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary&quot;</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-danger&quot;</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-warning&quot;</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-link&quot;</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/button&gt;</span></code></pre>
+</div>
+<p> </p>
+<h5 id="disabled-state">Disabled state</h5>
+<div class="pl-preview">
+<button disabled type="button" class="btn btn-default">Default</button>
+<button disabled type="button" class="btn btn-primary">Primary</button>
+<button disabled type="button" class="btn btn-danger">Danger</button>
+<button disabled type="button" class="btn btn-success">Success</button>
+<button disabled type="button" class="btn btn-warning">Warning</button>
+<button disabled type="button" class="btn btn-link">Link</button>
+</div>
+<div class="highlight">
+<pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-default&quot;</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary&quot;</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-danger&quot;</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-warning&quot;</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-link&quot;</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/button&gt;</span></code></pre>
+</div>
+
