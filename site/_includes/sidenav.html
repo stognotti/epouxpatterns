@@ -3,7 +3,7 @@ side nav
 {% assign url_parts_size = url_parts | size %}
 {% assign rm = url_parts | last %}
 {% capture base_url %}{{ '/docs/' }}{{ url_parts[2] }}{% endcapture %}
-<p>v1: {{base_url}}</p>
+<p>v2: {{base_url}}</p>
 <ul>
 {% for node in site.pages %}
 {{node.url}}
