@@ -17,14 +17,14 @@ email: cbs@epo.org?subject=UX Patterns Library
 
 # Set the default layout for everything in the docs folder to _layouts/pattern.html
 defaults:
-- scope:
-path: "docs"
-values:
-layout: "pattern"
-- scope:
-path: "docs/guides"
-values:
-layout: "guide"
+  - scope:
+      path: "docs"
+    values:
+      layout: "pattern"
+  - scope:
+      path: "docs/guides"
+    values:
+      layout: "guide"
 
 
 
