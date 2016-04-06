@@ -4,7 +4,7 @@ side nav
 {% assign rm = url_parts | last %}
 {% assign cat_list = "" %}
 {% capture base_url %}{{ '/docs/' }}{{ url_parts[2] }}{% endcapture %}
-<p>v11: {{base_url}}</p>
+<p>v12: {{base_url}}</p>
 <ul>
 {% assign sorted_pages = site.pages | sort:"path" %}
 {% for node in sorted_pages %}
@@ -30,7 +30,7 @@ side nav
         {% endfor %}
         {% if found == 0 %}
             {% assign cat_list = cat_list | push: cate %}
-            added {{ cate }}
+            added {{ cate }} now {{ cat_list }}
          {% endif %}
       {% endunless %}
        </li>
