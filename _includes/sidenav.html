@@ -3,7 +3,7 @@ side nav
 {% assign url_parts_size = url_parts | size %}
 {% assign rm = url_parts | last %}
 {% assign base_url = page.url | replace: rm %}
-
+<p></p>{{base_url}}</p>
 <ul>
 {% for node in site.pages %}
   {% if node.url contains base_url %}
