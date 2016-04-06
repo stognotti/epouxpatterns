@@ -13,3 +13,15 @@ baseurl: "/epouxpatterns"
 
 # The url for the home page of the design library
 homeurl: "/epouxpatterns"
+
+
+email: cbs@epo.org?subject=UX Patterns Library
+# Repository information, which is used for links like "View on Github"
+
+
+repository:
+
+  name: simon-eastwood/epouxpatterns
+
+  url: https://github.com/simon-eastwood/epouxpatterns
+
