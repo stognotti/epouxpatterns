@@ -24,6 +24,8 @@ side nav
         {% for item in cat_list %}
           {% if found == 0 and item == cate %}
               {% assign found = 1 %}
+          {% else %}
+            {{item}} {{cate}}
           {% endif %}
         {% endfor %}
         {% if found == 0 %}
