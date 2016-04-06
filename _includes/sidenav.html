@@ -47,7 +47,7 @@ side nav
       <li class="category">{{c}}</li>
         {% for p in sorted_pages %}
           {% if p.url contains c %}
-            {% unless p.url contains 'index.html' %}
+            {% unless show_in_nav == false %}
               <li><a href='{{p.url}}'>{{p.title}}</a> </li>
             {% endunless %}
           {% endif %}
