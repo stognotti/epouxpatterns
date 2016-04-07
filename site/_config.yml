@@ -1,5 +1,6 @@
 name: EPO UX Patterns library
 
+encoding: UTF-8
 
 # Markdown parsing configuration
 markdown: kramdown
