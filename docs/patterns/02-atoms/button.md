@@ -21,7 +21,7 @@ Buttons are used as triggers for actions. Depending on the use case, buttons con
 <li><strong>Warning</strong>, indicates an action that may have some side effects, such as giving a user admin access.</li>
 <li><strong>Link</strong>, used for non-critical actions. Useful for keeping the interface simple.</li>
 </ul>
-<p>All buttons are prefixed with the <code>btn</code> class. The <code>btn</code> class can be applied to any element. Try to use <code>&lt;button&gt;</code> elements when an action won’t change the URL/route, and <code>&lt;a&gt;</code> elements when the action will change the URL/route.</p>
+<p>All buttons are prefixed with the <code>btn</code> class. The <code>btn</code> class can be applied to any element. Try to use <code>&lt;button&gt;</code> elements when an action wonâ€™t change the URL/route, and <code>&lt;a&gt;</code> elements when the action will change the URL/route.</p>
 
 time is {{ site.time }}
 <div class="pl-preview">
