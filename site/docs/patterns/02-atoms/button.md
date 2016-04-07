@@ -12,7 +12,7 @@ Buttons are used as triggers for actions. Depending on the use case, buttons con
 </div>
 <div class="pl-pattern">
 <h3 id="button-styles">Button styles</h3>
-<p>There are 6 button styles:</p>
+<p>There are 6 button styles TEST:</p>
 <ul>
 <li><strong>Default</strong>, the general button style.</li>
 <li><strong>Primary</strong>, indicates the critical, or most important action on a form/page.</li>
