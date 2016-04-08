@@ -2,6 +2,7 @@
 layout: pattern
 title: Icons
 ---
-This is an example of preview code
+This is another example of preview code
 
-{% include_relative _preview-code/icons/preview1.html %}
+{% capture my-include %}{% include_relative _preview-code/icons/preview1.html %}{% endcapture %}
+{{ my-include | markdownify }}
