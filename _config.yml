@@ -27,6 +27,10 @@ defaults:
       path: "docs"
     values:
       layout: "pattern"
+  - scope:
+      path: "docs/patterns/01-foundation/_preview-code"
+    values:
+      layout: "preview"
 
 
 
