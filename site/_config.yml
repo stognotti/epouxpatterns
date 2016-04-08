@@ -27,6 +27,10 @@ defaults:
     values:
       layout: "pattern"
   - scope:
+      path: "_preview-code"
+    values:
+      layout: "preview"
+  - scope:
       path: "docs/guides"
     values:
       layout: "guide"
