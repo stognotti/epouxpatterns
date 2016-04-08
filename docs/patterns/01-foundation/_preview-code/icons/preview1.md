@@ -1,7 +1,4 @@
----
-layout: preview
-title: Icons preview section
----
+
 first copy
 {% include_relative _preview-code/icons/preview1.html  %}
  
