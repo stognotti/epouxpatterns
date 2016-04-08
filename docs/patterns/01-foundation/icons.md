@@ -1,3 +1,7 @@
+---
+layout: pattern
+title: Icons
+---
 This is an example of preview code
 
-{% include_relative ../../../_preview-code/icons/preview1.html %}
+{% include_relative preview1.html %}
