@@ -21,19 +21,31 @@ repository:
 email: cbs@epo.org?subject=UX Patterns Library
 
 # Set the default layout for everything in the docs folder to _layouts/pattern.html
+# this bit needs some auto generation. in the patterns content an "include_relative" is done, but unfortunately that only works with child directory.
+# I wanted to then use a wildcard in this defaults list but jekyll doesnt support that (sigh). Not the dirs under patterns are hard coded here, but
+# thats not how we want it. Solution would be to auto generate this defaults list in the build job
 defaults:
   - scope:
       path: "docs"
     values:
       layout: "pattern"
   - scope:
-      path: "_preview-code"
+      path: "docs/patterns/01-foundation/_preview-code"
     values:
       layout: "preview"
   - scope:
-      path: "docs/guides"
+      path: "docs/patterns/02-atoms/_preview-code"
     values:
-      layout: "guide"
+      layout: "preview"  
+    - scope:
+      path: "docs/patterns/03-molecules/_preview-code"
+    values:
+      layout: "preview"  
+    - scope:
+      path: "docs/patterns/04-organisms/_preview-code"
+    values:
+      layout: "preview"
+
 
 
 
