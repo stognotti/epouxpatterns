@@ -1,9 +1,9 @@
 var passed in is {{ include.f }}
 first copy
-{% include_relative _preview-code/icons/preview1.html  %}
+{% include_relative {{ include.f }}  %}
 
 second copy
-{% include_relative _preview-code/icons/preview1.html  %}
+{% include_relative {{ include.f }}  %}
 
 
 
