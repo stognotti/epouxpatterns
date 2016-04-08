@@ -37,11 +37,11 @@ defaults:
       path: "docs/patterns/02-atoms/_preview-code"
     values:
       layout: "preview"  
-    - scope:
+  - scope:
       path: "docs/patterns/03-molecules/_preview-code"
     values:
       layout: "preview"  
-    - scope:
+  - scope:
       path: "docs/patterns/04-organisms/_preview-code"
     values:
       layout: "preview"
