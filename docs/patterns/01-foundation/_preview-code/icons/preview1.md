@@ -1,8 +1,4 @@
----
-layout: preview
-title: test title
-show_in_nav: false
----
+var passed in is {{ f }}
 first copy
 {% include_relative _preview-code/icons/preview1.html  %}
 
