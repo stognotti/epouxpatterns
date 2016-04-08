@@ -1,0 +1,3 @@
+This is an example of preview code
+
+{% include_relative ../../../_preview-code/icons/preview1.html %}
