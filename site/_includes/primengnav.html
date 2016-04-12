@@ -12,7 +12,7 @@
         
           {% assign component = u | split: '#' | last %}
             
-              <li   ><a href="{{site.baseurl}}{{ u }}" >{{component}}</a> </li>
+              <li   ><a href="" onclick="ng-frame.src='{{site.baseurl}}{{ u }};return false' >{{component}}</a> </li>
            
   
         {% endfor %}
