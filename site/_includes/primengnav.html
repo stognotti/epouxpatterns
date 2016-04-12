@@ -10,9 +10,9 @@
 
         {% for u in url_list %}
         
-          {% assign component = u | split: '#' | last %}
+          {% assign component = u | split: '#' | last| split: '/' | last %}
             
-              <li   ><a href="{{site.baseurl}}{{ u }}" >{{component}}</a> </li>
+              <li ><a href="{{site.baseurl}}{{ u }}" target="ng-frame" >{{component}}</a> </li>
            
   
         {% endfor %}
