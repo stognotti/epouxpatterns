@@ -3,59 +3,59 @@
   url: http://www.primefaces.org/primeng/#/autocomplete
 
 - name: Calendar
-  url:  http://www.primefaces.org/primeng/#/Calendar
+  url:  http://www.primefaces.org/primeng/#/calendar
   
 - name: Checkbox
-  url:  http://www.primefaces.org/primeng/#/Checkbox  
+  url:  http://www.primefaces.org/primeng/#/checkbox  
   
 - name: Dropdown
-  url:  http://www.primefaces.org/primeng/#/Dropdown
+  url:  http://www.primefaces.org/primeng/#/dropdown
   
     
 - name: Editor
-  url:  http://www.primefaces.org/primeng/#/Editor
+  url:  http://www.primefaces.org/primeng/#/editor
     
 - name: InputSwitch
-  url:  http://www.primefaces.org/primeng/#/InputSwitch
+  url:  http://www.primefaces.org/primeng/#/inputswitch
     
 - name: InputText
-  url:  http://www.primefaces.org/primeng/#/InputText
+  url:  http://www.primefaces.org/primeng/#/inputtext
     
 - name: InputTextArea
-  url:  http://www.primefaces.org/primeng/#/InputTextArea
+  url:  http://www.primefaces.org/primeng/#/inputtextarea
     
 - name: Listbox
-  url:  http://www.primefaces.org/primeng/#/Listbox
+  url:  http://www.primefaces.org/primeng/#/listbox
     
 - name: MultiSelect
-  url:  http://www.primefaces.org/primeng/#/MultiSelect
+  url:  http://www.primefaces.org/primeng/#/multiselect
   
 - name: Password
-  url:  http://www.primefaces.org/primeng/#/Password
+  url:  http://www.primefaces.org/primeng/#/password
 
 - name: RadioButton
-  url:  http://www.primefaces.org/primeng/#/RadioButton
+  url:  http://www.primefaces.org/primeng/#/radiobutton
 
 - name: Rating
-  url:  http://www.primefaces.org/primeng/#/Rating
+  url:  http://www.primefaces.org/primeng/#/rating
   
 - name: Slider
-  url:  http://www.primefaces.org/primeng/#/Slider
+  url:  http://www.primefaces.org/primeng/#/slider
 
 - name: Spinner
-  url:  http://www.primefaces.org/primeng/#/Spinner
+  url:  http://www.primefaces.org/primeng/#/spinner
 
 - name: SelectButton
-  url:  http://www.primefaces.org/primeng/#/SelectButton
+  url:  http://www.primefaces.org/primeng/#/selectbutton
 
 - name: ToggleButton
-  url:  http://www.primefaces.org/primeng/#/ToggleButton
+  url:  http://www.primefaces.org/primeng/#/togglebutton
   
 - name: Button
-  url:  http://www.primefaces.org/primeng/#/Button
+  url:  http://www.primefaces.org/primeng/#/button
   
 - name: SplitButton
-  url:  http://www.primefaces.org/primeng/#/SplitButton
+  url:  http://www.primefaces.org/primeng/#/splitbutton
   
   
 
