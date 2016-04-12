@@ -1,8 +1,55 @@
-- name: Autocomplete
-  url: http://www.primefaces.org/primeng/#/autocomplete
 
 - name: Autocomplete
   url: http://www.primefaces.org/primeng/#/autocomplete
 
-- name: Autocomplete
-  url: http://www.primefaces.org/primeng/#/autocomplete
+- name: Calendar
+  url:  http://www.primefaces.org/primeng/#/Calendar
+  
+- name: Checkbox
+  url:  http://www.primefaces.org/primeng/#/Checkbox  
+  
+- name: Dropdown
+  url:  http://www.primefaces.org/primeng/#/Dropdown
+  
+    
+- name: Editor
+  url:  http://www.primefaces.org/primeng/#/Editor
+    
+- name: InputSwitch
+  url:  http://www.primefaces.org/primeng/#/InputSwitch
+    
+- name: InputText
+  url:  http://www.primefaces.org/primeng/#/InputText
+    
+- name: InputTextArea
+  url:  http://www.primefaces.org/primeng/#/InputTextArea
+    
+- name: Listbox
+  url:  http://www.primefaces.org/primeng/#/Listbox
+    
+- name: MultiSelect
+  url:  http://www.primefaces.org/primeng/#/MultiSelect
+  
+- name: Password
+  url:  http://www.primefaces.org/primeng/#/Password
+
+- name: RadioButton
+  url:  http://www.primefaces.org/primeng/#/RadioButton
+
+- name: Rating
+  url:  http://www.primefaces.org/primeng/#/Rating
+  
+- name: Slider
+  url:  http://www.primefaces.org/primeng/#/Slider
+
+- name: Spinner
+  url:  http://www.primefaces.org/primeng/#/Spinner
+
+- name: SelectButton
+  url:  http://www.primefaces.org/primeng/#/SelectButton
+
+- name: ToggleButton
+  url:  http://www.primefaces.org/primeng/#/ToggleButton
+  
+  
+  
