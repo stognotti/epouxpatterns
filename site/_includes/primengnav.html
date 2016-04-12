@@ -1,0 +1,21 @@
+
+
+
+{% assign url_list = "http://www.primefaces.org/primeng/#/accordion" %}
+
+
+
+<nav class="pl-sidebar">
+  <ul class="nav nav-stacked">
+
+        {% for u in url_list %}
+        
+          {% assign component = u | split: '#' | last %}
+            
+              <li   ><a href="{{site.baseurl}}{{ u }}" >{{component}}</a> </li>
+           
+  
+        {% endfor %}
+ 
+  </ul>
+</nav>

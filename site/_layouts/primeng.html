@@ -1,0 +1,12 @@
+{% include header.html %}
+{% include topnav.html %}
+ <div class="pl-container">
+   {% include primengnav.html %}     
+        <section class="pl-content">
+            {% if page.preview == true %}
+                <div class="pl-preview-header">This document is a preview.</div>
+            {% endif %}
+            {{ content }}
+        </section>
+    </div>
+{% include footer.html %}
