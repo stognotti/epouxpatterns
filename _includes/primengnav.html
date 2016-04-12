@@ -1,7 +1,7 @@
 
 
 
-{% assign url_list = "http://www.primefaces.org/primeng/#/accordion | http://www.primefaces.org/primeng/#/accordion" %}
+{% assign url_list = "http://www.primefaces.org/primeng/#/accordion|http://www.primefaces.org/primeng/#/accordion"  | split: "|" %}
 
 
 
@@ -10,7 +10,7 @@
 
         {% for u in url_list %}
         
-      {{ u }}
+     <li ><a href="{{ u }}" target="ng-frame" >{{u | split: '#' | last | split: '/' | last}}</a> </li>
             
 
            
