@@ -51,5 +51,11 @@
 - name: ToggleButton
   url:  http://www.primefaces.org/primeng/#/ToggleButton
   
+- name: Button
+  url:  http://www.primefaces.org/primeng/#/Button
+  
+- name: SplitButton
+  url:  http://www.primefaces.org/primeng/#/SplitButton
   
   
+

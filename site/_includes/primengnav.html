@@ -1,16 +1,13 @@
 
 
 
-{% assign url_list = "http://www.primefaces.org/primeng/#/accordion|http://www.primefaces.org/primeng/#/accordion"  | split: "|" %}
-
-
 
 <nav class="pl-sidebar">
   <ul class="nav nav-stacked">
 
         {% for p in site.data.primeng %}
         
-     <li ><a href="{{ p.url }}" target="ng-frame" >{{p.name}}</a> </li>
+     <li ><a href="{{ p.url }}" target="_blank" >{{p.name}}</a> </li>
             
 
            
