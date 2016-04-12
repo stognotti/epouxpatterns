@@ -8,9 +8,9 @@
 <nav class="pl-sidebar">
   <ul class="nav nav-stacked">
 
-        {% for u in url_list %}
+        {% for p in site.data.primeng %}
         
-     <li ><a href="{{ u }}" target="ng-frame" >{{u | split: '#' | last | split: '/' | last}}</a> </li>
+     <li ><a href="{{ p.url }}" target="ng-frame" >{{p.name}}</a> </li>
             
 
            
