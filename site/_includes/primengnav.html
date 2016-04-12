@@ -12,7 +12,11 @@
         
           {% assign component = u | split: '#' | last| split: '/' | last %}
             
+<<<<<<< HEAD
               <li ><a href="{{site.baseurl}}{{ u }}" target="ng-frame" >{{component}}</a> </li>
+=======
+              <li   ><a href="" onclick="ng-frame.src='{{site.baseurl}}{{ u }};return false' >{{component}}</a> </li>
+>>>>>>> fa23c8b3d4d01c6b1f6c1dc994e7183c0d1364b1
            
   
         {% endfor %}
