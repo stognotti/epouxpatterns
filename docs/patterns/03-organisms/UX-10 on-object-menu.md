@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: UX10 On-object Menu
+title: UX-10 On-object Menu
 ---
 
 # Description
