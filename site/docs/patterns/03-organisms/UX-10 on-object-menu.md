@@ -3,7 +3,7 @@ layout: pattern
 title: UX-10 On-object Menu
 ---
 
-<div class="pl-pattern" markdown="1">
+
 
 ### Description
 
@@ -40,5 +40,5 @@ Direct Opportunity to manipulate and annotate content.
 [a relative link](../01-atoms/button.md)
 
 
-</div>
+
 
