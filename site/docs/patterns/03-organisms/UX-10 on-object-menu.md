@@ -2,7 +2,7 @@
 layout: pattern
 title: UX-10 On-object Menu
 ---
-<div class="pl-pattern">
+
 # Description
 
 The on-object menu serves the purpose to directly manipulate content ("on-the-spot").
@@ -34,4 +34,4 @@ Direct Opportunity to manipulate and annotate content.
 ### See also
 [a relative link](../01-atoms/button.md)
 
-</div>
+
