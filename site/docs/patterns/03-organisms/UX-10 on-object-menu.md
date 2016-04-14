@@ -2,7 +2,7 @@
 layout: pattern
 title: UX-10 On-object Menu
 ---
-<div class="pl-pattern">
+<div class="pl-pattern" markdown="1">
 ### Description
 
 The on-object menu serves the purpose to directly manipulate content ("on-the-spot").
