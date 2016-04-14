@@ -5,13 +5,15 @@ title: UX10 On-object Menu
 
 # Description
 
-The ob-object menu serves the purpose to directly manipulate content ("on-the-spot").
+The on-object menu serves the purpose to directly manipulate content ("on-the-spot").
 
 The basic mechanism starts with a left-click selection by the user within the content, which triggers a semi-transparent menu to appear next to the selection. This menu, if hovered over, allows to select between different options what to do with the selection.
 
 The menu itself is divided into two parts: a main part showing the most probable three to four options of what to do with the selection: and the more part, opening a further list of items to be selected from.
 
 The functions entailed within the menu can vary depening on the task and the specific context in which the on-object menu is called.
+
+[[http://simon-eastwood.github.io/epouxpatterns/docs/patterns/03-organisms/OOM.png|alt=OOM]]
 
 # What problem does the pattern solve?
 
@@ -28,3 +30,5 @@ Menu should be unobtrusive, in the sense of not covering too much main content a
 # Why use it
 
 Direct Opportunity to manipulate and annotate content.
+
+
