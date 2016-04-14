@@ -13,7 +13,7 @@ The menu itself is divided into two parts: a main part showing the most probable
 
 The functions entailed within the menu can vary depening on the task and the specific context in which the on-object menu is called.
 
-[[http://simon-eastwood.github.io/epouxpatterns/docs/patterns/03-organisms/OOM.png|alt=OOM]]
+![On-object menu](OOM.png "On-object menu 1")
 
 # What problem does the pattern solve?
 
@@ -30,5 +30,8 @@ Menu should be unobtrusive, in the sense of not covering too much main content a
 # Why use it
 
 Direct Opportunity to manipulate and annotate content.
+
+# See also
+[a relative link](../01-atoms/button.md)
 
 
