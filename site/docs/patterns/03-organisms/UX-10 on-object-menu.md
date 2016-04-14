@@ -2,8 +2,14 @@
 layout: pattern
 title: UX-10 On-object Menu
 ---
+<<<<<<< HEAD
 <div class="pl-pattern" markdown="1">
 ### Description
+=======
+
+<div class="pl-pattern">
+# Description
+>>>>>>> b02e131a179b5a5bac19fa54dcc90f3936579ac2
 
 The on-object menu serves the purpose to directly manipulate content ("on-the-spot").
 
@@ -13,7 +19,9 @@ The menu itself is divided into two parts: a main part showing the most probable
 
 The functions entailed within the menu can vary depening on the task and the specific context in which the on-object menu is called.
 
+
 ![On-object menu](OOM.png "On-object menu 1")
+
 
 ### What problem does the pattern solve?
 
@@ -34,4 +42,4 @@ Direct Opportunity to manipulate and annotate content.
 ### See also
 [a relative link](../01-atoms/button.md)
 
-</div>
+
