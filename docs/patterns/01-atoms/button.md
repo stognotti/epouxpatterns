@@ -3,7 +3,7 @@ title: "Button"
 layout: pattern
 ---
 
-<div class="pl-pattern">
+
 <h3>Buttons</h3>
 Buttons are used as triggers for actions. Depending on the use case, buttons contain a label and/or an icon. There are a variety of styles, sizes, and variations that can be used for different situations.
 
@@ -44,4 +44,4 @@ time is {{ site.time }}
   </pre>
   </figure>
 
-</div>
+
