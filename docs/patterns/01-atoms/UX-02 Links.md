@@ -1,7 +1,7 @@
 ---
 layout: pattern
-title: UX-2 Links
-key:  UX-2
+title: UX-02 Links
+key:  UX-02
 status:  draft 
 ---
 
@@ -14,25 +14,35 @@ This pattern includes a particular type of link, the contextual one. It is a wor
 ### Behaviour
 
 - Enabled
+
 ![Enabled link](ux02resources/link-e.png "Enabled Link")
+
 - Hovered
+
 ![Hovered link](ux02resources/link-h.png "Hovered Link")
+
 - Clicked
+
 ![Clicked link](ux02resources/link-c.png "Clicked Link")
+
 - Clicked and Visited
+
 ![Clicked and Visited link](ux02resources/link-cv.png "Clicked and Visited Link")
+
 - Clicked, Visited and hovered
+
 ![Clicked, Visited and hovered link](ux02resources/link-cvh.png "Clicked, visited and hovered Link")
+
 
 ### Style
 
 | Status             | Element                                                  | Details                                 |
 | ------------------ |:--------------------------------------------------------:| ---------------------------------------:|
-| Enable             | ![Enabled link](ux02resources/link-e2.png "Enabled Link")  | Source Sans Pro: 20px   Colour: #3183B  |
-| Hovered & Focused  | ![Enabled link](ux02resources/link-hf2.png "Enabled Link") | Source Sans Pro Underline: 20px   Colour: #3183B |
-| Clicked            | ![Enabled link](ux02resources/link-c2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
-| Visited            | ![Enabled link](ux02resources/link-v2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
-| Visited & Hovered  | ![Enabled link](ux02resources/link-vh2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
+| Enable             | ![Enabled link](ux02resources/link-e2.png "Enabled Link")  | Source Sans Pro: 20px<br/>Colour: #3183B  |
+| Hovered & Focused&nbsp;&nbsp;&nbsp;  | ![Enabled link](ux02resources/link-hf2.png "Enabled Link") | Source Sans Pro Underline: 20px<br/>Colour: #3183B |
+| Clicked            | ![Enabled link](ux02resources/link-c2.png "Enabled Link") | Source Sans Pro: 20px<br/>Colour: #256A99 |
+| Visited            | ![Enabled link](ux02resources/link-v2.png "Enabled Link") | Source Sans Pro: 20px<br/>Colour: #256A99 |
+| Visited & Hovered  | ![Enabled link](ux02resources/link-vh2.png "Enabled Link") | Source Sans Pro: 20px<br/>Colour: #256A99 |
 
 
 ### Pattern Usage
