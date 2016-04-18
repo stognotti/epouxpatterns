@@ -1,45 +1,48 @@
 ---
 layout: pattern
-title: UX-08 Secondary Buttons
-key:  UX-08
+title: UX-04 Simple Dropdown menu
+key:  UX-04
 status:  draft 
 ---
 
 
 ### Description
-A button is a basic interaction in which clicking on this element triggers and action. 
-Actions might be divided as primary or secondary according to the main purpose of the process. Therefore, there are also primary and secondary buttons in order to properly represent these actions. 
- 
+It is a menu or list that appears below when an option is selected. It remains visible until is used or dismissed.
 
 ### Behaviour
 
 - Enabled
-![Enabled ](ux08resources/sbutton-e.png "Enabled ")
+
+![Enabled ](ux04resources/sdd-e.png "Enabled ")
+
 - Hovered and Focussed
-![Hovered  and Focussed](ux08resources/sbutton-hf.png "Hovered  and Focussed")
+
+![Hovered  and Focussed](ux04resources/sdd-hf.png "Hovered  and Focussed")
+
 - Pressed
-![Pressed](ux08resources/sbutton-p.png "Pressed")
+
+![Pressed](ux04resources/sdd-p.png "Pressed")
+
 - Disabled
-![Disabled](ux08resources/sbutton-d.png "Disabled")
+
+![Disabled](ux04resources/sdd-d.png "Disabled")
 
 
 ### Style
 
 | Status             | Element                                                  | Details                                 |
 | ------------------ |:--------------------------------------------------------:| ---------------------------------------:|
-| Enable             | ![Enabled  ](ux08resources/sbutton-e2.png "Enabled ")  | Font Awesome: 25px   Colour: #000000 Opacity 54%Background: #EEEEEE	Strokeline: #CCCCCC  |
-| Hovered & Focused  | ![Enabled  ](ux08resources/sbutton-hf2.png "Hovered & Focused ") | Font Awesome: 25px   Colour: #FFFFFF Background: #3183BC Strokeline: #CCCCCC	Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |
-| Pressed            | ![Pressed  ](ux08resources/sbutton-p2.png "Pressed  ") | Font Awesome: 25px   Colour: #FFFFFF Background: #3183BC  Strokeline: #CCCCCC |
-| Disabled            | ![Disabled  ](ux08resources/sbutton-d2.png "Disabled  ") | Font Awesome: 25px   Colour: #000000 Opacity: 54% Background: #FBFBFB  Strokeline: #CCCCCC |
+| Enable             | ![Enabled  ](ux04resources/sdd-e2.png "Enabled ")  | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #EEEEEE  Strokeline: #CCCCCC |
+| Hovered & Focused &nbsp;&nbsp;&nbsp;&nbsp; | ![Enabled  ](ux04resources/sdd-hf2.png "Hovered & Focused ") | &nbsp;&nbsp;&nbsp;&nbsp; Font Awesome: 25px   Colour: #FFFFFF <br/>Background: #3183BC Strokeline: #CCCCCC	<br/>Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |
+| Pressed            | ![Pressed  ](ux04resources/sdd-p2.png "Pressed  ") | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #FFFFFF  Strokeline: #CCCCCC <br/>Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |
+| Disabled            | ![Disabled  ](ux04resources/sdd-d2.png "Disabled  ") | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #FBFBFB |
 
 
 
 ### Pattern Usage
-A secondary button can be used when there is at least one primary button in the same screen or step. 
+When there are several options to choose regarding a single concept. This solution saves space in the layout and gathers gather possible values from a list
+Display a list or menu and allow the user choosing one or several values from the list 
 
-There might be several secondary buttons depending on the available actions. 
-
-Whether an action is a primary or secondary one as well as how many buttons might be added needs to be decided according to UX principles. Inform and ask the UX team for each application. 
 
 
 ### Accessibility
