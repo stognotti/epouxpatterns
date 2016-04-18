@@ -1,7 +1,7 @@
 ---
 layout: pattern
-title: UX-10 On-object Menu
-key:  UX-10
+title: UX-2 Links
+key:  UX-2
 status:  draft 
 ---
 
