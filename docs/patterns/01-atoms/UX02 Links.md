@@ -28,11 +28,11 @@ This pattern includes a particular type of link, the contextual one. It is a wor
 
 | Status                | Element                                                  | Details                                 |
 | --------------------- |:--------------------------------------------------------:| ---------------------------------------:|
-|Enable                 | ![Enabled link](ux02resources/link-e.png "Enabled Link") | Source Sans Pro: 20px   Colour: #3183B  |
-| Hovered & Focused     | ![Enabled link](ux02resources/link-e.png "Enabled Link") | Source Sans Pro Underline: 20px   Colour: #3183B |
-| Clicked               | ![Enabled link](ux02resources/link-e.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
-| Visited               | ![Enabled link](ux02resources/link-e.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
-| Visited & Hovered     | ![Enabled link](ux02resources/link-e.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
+|Enable                 | ![Enabled link](ux02resources/link-e2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #3183B  |
+| Hovered & Focused     | ![Enabled link](ux02resources/link-hf2.png "Enabled Link") | Source Sans Pro Underline: 20px   Colour: #3183B |
+| Clicked               | ![Enabled link](ux02resources/link-c2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
+| Visited               | ![Enabled link](ux02resources/link-v2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
+| Visited & Hovered     | ![Enabled link](ux02resources/link-vh2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
 
 
 ### Pattern Usage
