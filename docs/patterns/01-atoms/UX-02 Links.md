@@ -47,8 +47,10 @@ This pattern includes a particular type of link, the contextual one. It is a wor
 
 ### Pattern Usage
 A link can be used on different cases:
+
 -	Lists of items. Each item leads to extensive related information. E.g.: An article title leads to the full text. 
 -	Within a body of text. 
+-	
 It is a good practice to mark the visited links in order to ease navigation.  
 
 ### Accessibility
