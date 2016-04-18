@@ -1,7 +1,7 @@
 ---
 layout: pattern
-title: UX-7 Primary Buttons
-key:  UX-7
+title: UX-07 Primary Buttons
+key:  UX-07
 status:  draft 
 ---
 
