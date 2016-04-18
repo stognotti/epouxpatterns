@@ -1,7 +1,7 @@
 ---
 layout: pattern
-title: UX08 Secondary Buttons
-key:  UX08
+title: UX-08 Secondary Buttons
+key:  UX-08
 status:  draft 
 ---
 
