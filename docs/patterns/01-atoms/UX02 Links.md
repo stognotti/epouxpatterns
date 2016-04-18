@@ -26,19 +26,19 @@ This pattern includes a particular type of link, the contextual one. It is a wor
 
 ### Style
 
-| Status                | Element                                                  | Details                                 |
-| --------------------- |:--------------------------------------------------------:| ---------------------------------------:|
-|Enable                 | ![Enabled link](ux02resources/link-e2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #3183B  |
-| Hovered & Focused     | ![Enabled link](ux02resources/link-hf2.png "Enabled Link") | Source Sans Pro Underline: 20px   Colour: #3183B |
-| Clicked               | ![Enabled link](ux02resources/link-c2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
-| Visited               | ![Enabled link](ux02resources/link-v2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
-| Visited & Hovered     | ![Enabled link](ux02resources/link-vh2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
+| Status             | Element                                                  | Details                                 |
+| ------------------ |:--------------------------------------------------------:| ---------------------------------------:|
+| Enable             | ![Enabled link](ux02resources/link-e2.png "Enabled Link")  | Source Sans Pro: 20px   Colour: #3183B  |
+| Hovered & Focused  | ![Enabled link](ux02resources/link-hf2.png "Enabled Link") | Source Sans Pro Underline: 20px   Colour: #3183B |
+| Clicked            | ![Enabled link](ux02resources/link-c2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
+| Visited            | ![Enabled link](ux02resources/link-v2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
+| Visited & Hovered  | ![Enabled link](ux02resources/link-vh2.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
 
 
 ### Pattern Usage
 A link can be used on different cases:
-•	Lists of items. Each item leads to extensive related information. E.g.: An article title leads to the full text. 
-•	Within a body of text. 
+-	Lists of items. Each item leads to extensive related information. E.g.: An article title leads to the full text. 
+-	Within a body of text. 
 It is a good practice to mark the visited links in order to ease navigation.  
 
 ### Accessibility
