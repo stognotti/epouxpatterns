@@ -16,13 +16,13 @@ This pattern includes a particular type of link, the contextual one. It is a wor
 - Enabled
 ![Enabled link](ux02resources/link-e.png "Enabled Link")
 - Hovered
-![Enabled link](ux02resources/link-e.png "Enabled Link")
+![Hovered link](ux02resources/link-h.png "Hovered Link")
 - Clicked
-![Enabled link](ux02resources/link-e.png "Enabled Link")
+![Clicked link](ux02resources/link-c.png "Clicked Link")
 - Clicked and Visited
-![Enabled link](ux02resources/link-e.png "Enabled Link")
+![Clicked and Visited link](ux02resources/link-cv.png "Clicked and Visited Link")
 - Clicked, Visited and hovered
-![Enabled link](ux02resources/link-e.png "Enabled Link")
+![Clicked, Visited and hovered link](ux02resources/link-cvh.png "Clicked, visited and hovered Link")
 
 ### Style
 
