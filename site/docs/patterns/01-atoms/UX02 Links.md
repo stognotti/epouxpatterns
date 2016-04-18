@@ -14,6 +14,7 @@ This pattern includes a particular type of link, the contextual one. It is a wor
 ### Behaviour
 
 - Enabled
+![Enabled link](ux02resources/link-e.png "Enabled Link")
 - Hovered
 - Clicked
 - Clicked and Visited
