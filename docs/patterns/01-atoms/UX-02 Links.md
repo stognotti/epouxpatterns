@@ -19,11 +19,11 @@ This pattern includes a particular type of link, the contextual one. It is a wor
 
 - Hovered
 
-![Hovered link](ux02resources/link-h.png "Hovered Link")
+&nbsp;&nbsp;&nbsp;&nbsp;![Hovered link](ux02resources/link-h.png "Hovered Link")
 
 - Clicked
 
-![Clicked link](ux02resources/link-c.png "Clicked Link")
+&nbsp;&nbsp;&nbsp;&nbsp;![Clicked link](ux02resources/link-c.png "Clicked Link")
 
 - Clicked and Visited
 
@@ -36,10 +36,10 @@ This pattern includes a particular type of link, the contextual one. It is a wor
 
 ### Style
 
-| Status             | Element                                                  | Details                                 |
+| Status | Element                                                  | Details                                 |
 | ------------------ |:--------------------------------------------------------:| ---------------------------------------:|
 | Enable             | ![Enabled link](ux02resources/link-e2.png "Enabled Link")  | Source Sans Pro: 20px<br/>Colour: #3183B  |
-| Hovered & Focused&nbsp;&nbsp;&nbsp;  | ![Enabled link](ux02resources/link-hf2.png "Enabled Link") | &nbsp;&nbsp;&nbsp;Source Sans Pro Underline: 20px<br/>Colour: #3183B |
+| Hovered & Focused&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | ![Enabled link](ux02resources/link-hf2.png "Enabled Link") | &nbsp;&nbsp;&nbsp;Source Sans Pro Underline: 20px<br/>Colour: #3183B |
 | Clicked            | ![Enabled link](ux02resources/link-c2.png "Enabled Link") | Source Sans Pro: 20px<br/>Colour: #256A99 |
 | Visited            | ![Enabled link](ux02resources/link-v2.png "Enabled Link") | Source Sans Pro: 20px<br/>Colour: #256A99 |
 | Visited & Hovered  | ![Enabled link](ux02resources/link-vh2.png "Enabled Link") | Source Sans Pro: 20px<br/>Colour: #256A99 |
@@ -50,7 +50,7 @@ A link can be used on different cases:
 
 -	Lists of items. Each item leads to extensive related information. E.g.: An article title leads to the full text. 
 -	Within a body of text. 
--	
+
 It is a good practice to mark the visited links in order to ease navigation.  
 
 ### Accessibility
