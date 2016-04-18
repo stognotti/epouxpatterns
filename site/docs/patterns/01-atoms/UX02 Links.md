@@ -16,19 +16,23 @@ This pattern includes a particular type of link, the contextual one. It is a wor
 - Enabled
 ![Enabled link](ux02resources/link-e.png "Enabled Link")
 - Hovered
+![Enabled link](ux02resources/link-e.png "Enabled Link")
 - Clicked
+![Enabled link](ux02resources/link-e.png "Enabled Link")
 - Clicked and Visited
+![Enabled link](ux02resources/link-e.png "Enabled Link")
 - Clicked, Visited and hovered
+![Enabled link](ux02resources/link-e.png "Enabled Link")
 
 ### Style
 
-| Status                | Element           | Details                                 |
-| --------------------- |:-----------------:| ---------------------------------------:|
-|Enable                 |                   | Source Sans Pro: 20px   Colour: #3183B  |
-| Hovered & Focused     |                   | Source Sans Pro Underline: 20px   Colour: #3183B |
-| Clicked               |                   | Source Sans Pro: 20px   Colour: #256A99 |
-| Visited               |                   | Source Sans Pro: 20px   Colour: #256A99 |
-| Visited & Hovered     |                   | Source Sans Pro: 20px   Colour: #256A99 |
+| Status                | Element                                                  | Details                                 |
+| --------------------- |:--------------------------------------------------------:| ---------------------------------------:|
+|Enable                 | ![Enabled link](ux02resources/link-e.png "Enabled Link") | Source Sans Pro: 20px   Colour: #3183B  |
+| Hovered & Focused     | ![Enabled link](ux02resources/link-e.png "Enabled Link") | Source Sans Pro Underline: 20px   Colour: #3183B |
+| Clicked               | ![Enabled link](ux02resources/link-e.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
+| Visited               | ![Enabled link](ux02resources/link-e.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
+| Visited & Hovered     | ![Enabled link](ux02resources/link-e.png "Enabled Link") | Source Sans Pro: 20px   Colour: #256A99 |
 
 
 ### Pattern Usage
