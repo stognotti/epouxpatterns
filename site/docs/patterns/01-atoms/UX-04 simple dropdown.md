@@ -1,57 +1,49 @@
 ---
 layout: pattern
-title: UX-04 Simple dropdown menu
+title: UX-04 Simple Dropdown menu
 key:  UX-04
 status:  draft 
 ---
 
 
 ### Description
-A link allows navigating between along the application. It is a good practice to show visually a link in order to inform the users they can click on it. 
-
-This pattern includes a particular type of link, the contextual one. It is a word or phrase (known as keyword) within the body of text or list. Clicking on this keyword leads to related content.  
+It is a menu or list that appears below when an option is selected. It remains visible until is used or dismissed.
 
 ### Behaviour
 
 - Enabled
 
-![Enabled link](ux02resources/link-e.png "Enabled Link")
+![Enabled ](ux04resources/sdd-e.png "Enabled ")
 
-- Hovered
+- Hovered and Focussed
 
-&nbsp;&nbsp;&nbsp;&nbsp;![Hovered link](ux02resources/link-h.png "Hovered Link")
+![Hovered  and Focussed](ux04resources/sdd-hf.png "Hovered  and Focussed")
 
-- Clicked
+- Pressed
 
-&nbsp;&nbsp;&nbsp;&nbsp;![Clicked link](ux02resources/link-c.png "Clicked Link")
+![Pressed](ux04resources/sdd-p.png "Pressed")
 
-- Clicked and Visited
+- Disabled
 
-![Clicked and Visited link](ux02resources/link-cv.png "Clicked and Visited Link")
-
-- Clicked, Visited and hovered
-
-![Clicked, Visited and hovered link](ux02resources/link-cvh.png "Clicked, visited and hovered Link")
+![Disabled](ux04resources/sdd-d.png "Disabled")
 
 
 ### Style
 
-| Status | Element                                                  | Details                                 |
+| Status             | Element                                                  | Details                                 |
 | ------------------ |:--------------------------------------------------------:| ---------------------------------------:|
-| Enable             | ![Enabled link](ux02resources/link-e2.png "Enabled Link")  | Source Sans Pro: 20px<br/>Colour: #3183B  |
-| Hovered & Focused&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | ![Enabled link](ux02resources/link-hf2.png "Enabled Link") | &nbsp;&nbsp;&nbsp;Source Sans Pro Underline: 20px<br/>Colour: #3183B |
-| Clicked            | ![Enabled link](ux02resources/link-c2.png "Enabled Link") | Source Sans Pro: 20px<br/>Colour: #256A99 |
-| Visited            | ![Enabled link](ux02resources/link-v2.png "Enabled Link") | Source Sans Pro: 20px<br/>Colour: #256A99 |
-| Visited & Hovered  | ![Enabled link](ux02resources/link-vh2.png "Enabled Link") | Source Sans Pro: 20px<br/>Colour: #256A99 |
+| Enable             | ![Enabled  ](ux04resources/sdd-e2.png "Enabled ")  | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #EEEEEE  Strokeline: #CCCCCC |
+| Hovered & Focused &nbsp;&nbsp;&nbsp;&nbsp; | ![Enabled  ](ux04resources/sdd-hf2.png "Hovered & Focused ") | &nbsp;&nbsp;&nbsp;&nbsp; Font Awesome: 25px   Colour: #FFFFFF <br/>Background: #3183BC Strokeline: #CCCCCC	<br/>Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |
+| Pressed            | ![Pressed  ](ux04resources/sdd-p2.png "Pressed  ") | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #FFFFFF  Strokeline: #CCCCCC <br/>Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |
+| Disabled            | ![Disabled  ](ux04resources/sdd-d2.png "Disabled  ") | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #FBFBFB |
+
 
 
 ### Pattern Usage
-A link can be used on different cases:
+When there are several options to choose regarding a single concept. This solution saves space in the layout and gathers gather possible values from a list
+Display a list or menu and allow the user choosing one or several values from the list 
 
--	Lists of items. Each item leads to extensive related information. E.g.: An article title leads to the full text. 
--	Within a body of text. 
 
-It is a good practice to mark the visited links in order to ease navigation.  
 
 ### Accessibility
 
