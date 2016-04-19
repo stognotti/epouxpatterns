@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: UX-04 Simple Dropdown menu
+title: UX-04 Simple drop down menu
 key:  UX-04
 status:  draft 
 ---

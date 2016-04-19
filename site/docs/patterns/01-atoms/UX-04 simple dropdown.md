@@ -1,7 +1,7 @@
 ---
 layout: pattern
-title: UX-02 Links
-key:  UX-02
+title: UX-04 Simple dropdown menu
+key:  UX-04
 status:  draft 
 ---
 
