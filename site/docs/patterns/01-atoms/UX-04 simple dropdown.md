@@ -11,19 +11,19 @@ It is a menu or list that appears below when an option is selected. It remains v
 
 ### Behaviour
 
-- Enabled
+#### Enabled
 
 ![Enabled ](ux04resources/sdd-e.png "Enabled ")
 
-- Hovered and Focussed
+#### Hovered and Focussed
 
 ![Hovered  and Focussed](ux04resources/sdd-hf.png "Hovered  and Focussed")
 
-- Pressed
+#### Pressed
 
 ![Pressed](ux04resources/sdd-p.png "Pressed")
 
-- Disabled
+#### Disabled
 
 ![Disabled](ux04resources/sdd-d.png "Disabled")
 
@@ -31,7 +31,7 @@ It is a menu or list that appears below when an option is selected. It remains v
 ### Style
 
 | Status             | Element                                                  | Details                                 |
-| ------------------ |:--------------------------------------------------------:| ---------------------------------------:|
+| :------------------ |:--------------------------------------------------------:| ---------------------------------------:|
 | Enable             | ![Enabled  ](ux04resources/sdd-e2.png "Enabled ")  | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #EEEEEE  Strokeline: #CCCCCC |
 | Hovered & Focused &nbsp;&nbsp;&nbsp;&nbsp; | ![Enabled  ](ux04resources/sdd-hf2.png "Hovered & Focused ") | &nbsp;&nbsp;&nbsp;&nbsp; Font Awesome: 25px   Colour: #FFFFFF <br/>Background: #3183BC Strokeline: #CCCCCC	<br/>Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |
 | Pressed            | ![Pressed  ](ux04resources/sdd-p2.png "Pressed  ") | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #FFFFFF  Strokeline: #CCCCCC <br/>Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |

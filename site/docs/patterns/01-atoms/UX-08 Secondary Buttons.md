@@ -13,19 +13,19 @@ Actions might be divided as primary or secondary according to the main purpose o
 
 ### Behaviour
 
-- Enabled
+#### Enabled
 
 ![Enabled ](ux08resources/sbutton-e.png "Enabled ")
 
-- Hovered and Focussed
+#### Hovered and Focussed
 
 ![Hovered  and Focussed](ux08resources/sbutton-hf.png "Hovered  and Focussed")
 
-- Pressed
+#### Pressed
 
 ![Pressed](ux08resources/sbutton-p.png "Pressed")
 
-- Disabled
+#### Disabled
 
 ![Disabled](ux08resources/sbutton-d.png "Disabled")
 
@@ -39,7 +39,7 @@ Actions might be divided as primary or secondary according to the main purpose o
 ### Style
 
 | Status             | Element                                                  | Details                                 |
-| ------------------ |:--------------------------------------------------------:| ---------------------------------------:|
+| :------------------ |:--------------------------------------------------------:| ---------------------------------------:|
 | Enable             | ![Enabled  ](ux08resources/sbutton-e2.png "Enabled ")  | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #EEEEEE  Strokeline: #CCCCCC |
 | Hovered & Focussed &nbsp;&nbsp;&nbsp;&nbsp; | ![Hovered and focussed  ](ux08resources/sbutton-hf2.png "Hovered & Focused ") | &nbsp;&nbsp;&nbsp;&nbsp; Font Awesome: 25px   Colour: #FFFFFF <br/>Background: #3183BC Strokeline: #CCCCCC	<br/>Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |
 | Pressed            | ![Pressed  ](ux08resources/sbutton-p2.png "Pressed  ") | Font Awesome: 25px   Colour: #FFFFFF <br/>Background: #3183BC  <br/>Strokeline: #CCCCCC |
