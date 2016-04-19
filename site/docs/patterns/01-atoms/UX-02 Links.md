@@ -13,23 +13,23 @@ This pattern includes a particular type of link, the contextual one. It is a wor
 
 ### Behaviour
 
-- Enabled
+#### Enabled
 
  ![Enabled link](ux02resources/link-e.png "Enabled Link")
 
-- Hovered
+#### Hovered
 
- ![Hovered link](ux02resources/link-h.png "Hovered Link")
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Hovered link](ux02resources/link-h.png "Hovered Link")
 
-- Clicked
+#### Clicked
 
- ![Clicked link](ux02resources/link-c.png "Clicked Link")
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Clicked link](ux02resources/link-c.png "Clicked Link")
 
-- Clicked and Visited
+#### Clicked and Visited
 
 ![Clicked and Visited link](ux02resources/link-cv.png "Clicked and Visited Link")
 
-- Clicked, Visited and Hovered
+#### Clicked, Visited and Hovered
 
  ![Clicked, Visited and hovered link](ux02resources/link-cvh.png "Clicked, visited and hovered Link")
 
