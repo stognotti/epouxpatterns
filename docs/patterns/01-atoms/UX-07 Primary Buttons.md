@@ -13,13 +13,20 @@ Actions might be divided as primary or secondary according to the main purpose o
 
 ### Behaviour
 
-- Enabled
+#### Enabled
+
 ![Enabled ](ux07resources/pbutton-e.png "Enabled ")
-- Hovered and Focussed
+
+#### Hovered and Focussed
+
 ![Hovered and Focussed](ux07resources/pbutton-hf.png "Hovered and Focussed")
-- Pressed
+
+#### Pressed
+
 ![Pressed](ux07resources/pbutton-p.png "Pressed")
-- Disabled
+
+#### Disabled
+
 ![Disabled](ux07resources/pbutton-d.png "Disabled")
 
 ### Proportions
@@ -30,7 +37,7 @@ Actions might be divided as primary or secondary according to the main purpose o
 ### Style
 
 | Status             | Element                                                  | Details                                 |
-| ------------------ |:--------------------------------------------------------:| ---------------------------------------:|
+| :------------------ |:--------------------------------------------------------:| ---------------------------------------:|
 | Enable             | ![Enabled ](ux07resources/pbutton-e2.png "Enabled Link")  | Font Awesome: 25px   Colour: #FFFFFF <br/>Background: #3183BC Strokeline: #CCCCCC  |
 | Hovered & Focused&nbsp;&nbsp;&nbsp;&nbsp;  | ![Hovered and Focused](ux07resources/pbutton-hf2.png "Hovered and Focussed") | &nbsp;&nbsp;&nbsp;&nbsp;Font Awesome: 25px   Colour: #FFFFFF <br/>Background: #3183BC Strokeline: #CCCCCC <br/>Dropshadow: Distance 2px Opacity: 12% <br/>Softness 1px  Direction 270 |
 | Pressed            | ![Pressed](ux07resources/pbutton-p2.png "Pressed") | Font Awesome: 25px   Colour: #FFFFFF	<br/>Background: #2972A5  Strokeline: #CCCCCC  |
