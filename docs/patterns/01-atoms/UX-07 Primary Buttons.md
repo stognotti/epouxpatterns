@@ -14,7 +14,7 @@ Actions might be divided as primary or secondary according to the main purpose o
 ### Behaviour
 
 - Enabled
-![Enabled link](ux07resources/pbutton-e.png "Enabled Link")
+![Enabled ](ux07resources/pbutton-e.png "Enabled ")
 - Hovered and Focussed
 ![Hovered and Focussed](ux07resources/pbutton-hf.png "Hovered and Focussed")
 - Pressed
@@ -31,10 +31,10 @@ Actions might be divided as primary or secondary according to the main purpose o
 
 | Status             | Element                                                  | Details                                 |
 | ------------------ |:--------------------------------------------------------:| ---------------------------------------:|
-| Enable             | ![Enabled link](ux07resources/link-e2.png "Enabled Link")  | Font Awesome: 25px   Colour: #FFFFFF Background: #3183BC Strokeline: #CCCCCC  |
-| Hovered & Focused  | ![Enabled link](ux07resources/link-hf2.png "Enabled Link") | Font Awesome: 25px   Colour: #FFFFFF Background: #3183BC Strokeline: #CCCCCC Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |
-| Pressed            | ![Enabled link](ux07resources/link-p2.png "Enabled Link") | Font Awesome: 25px   Colour: #FFFFFF	Background: #2972A5  Strokeline: #CCCCCC  |
-| Disabled            | ![Enabled link](ux07resources/link-d2.png "Enabled Link") | Font Awesome: 25px   Colour: #000000 Opacity: 54% Background: #FBFBFB  Strokeline: #CCCCCC |
+| Enable             | ![Enabled ](ux07resources/pbutton-e2.png "Enabled Link")  | Font Awesome: 25px   Colour: #FFFFFF <br/>Background: #3183BC Strokeline: #CCCCCC  |
+| Hovered & Focused&nbsp;&nbsp;&nbsp;&nbsp;  | ![Hovered and Focused](ux07resources/pbutton-hf2.png "Hovered and Focussed") | &nbsp;&nbsp;&nbsp;&nbsp;Font Awesome: 25px   Colour: #FFFFFF <br/>Background: #3183BC Strokeline: #CCCCCC <br/>Dropshadow: Distance 2px Opacity: 12% <br/>Softness 1px  Direction 270 |
+| Pressed            | ![Pressed](ux07resources/pbutton-p2.png "Pressed") | Font Awesome: 25px   Colour: #FFFFFF	<br/>Background: #2972A5  Strokeline: #CCCCCC  |
+| Disabled            | ![Disabled](ux07resources/pbutton-d2.png "Disabled") | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #FBFBFB  Strokeline: #CCCCCC |
 
 
 
