@@ -1,5 +1,5 @@
 ---
-layout: pattern
+layout: pattern-primeng
 title: UX-07 Primary Buttons
 key:  UX-07
 status:  draft 
