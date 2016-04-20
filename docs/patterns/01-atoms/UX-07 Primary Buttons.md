@@ -10,6 +10,7 @@ status:  draft
 A button is a basic interaction in which clicking on this element triggers and action. 
 Actions might be divided as primary or secondary according to the main purpose of the process. Therefore, there are also primary and secondary buttons in order to properly represent these actions. 
 
+<my-app>Loading...</my-app>
 
 ### Behaviour
 
