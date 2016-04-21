@@ -34,6 +34,7 @@ Actions might be divided as primary or secondary according to the main purpose o
 
 ![Proportions](ux07resources/pbutton-proportions.png "Proportions")
 
+<my-app>Loading...</my-app>
 
 ### Style
 
