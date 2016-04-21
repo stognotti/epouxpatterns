@@ -5,8 +5,7 @@ import {Button} from 'primeng/primeng';
 @Component({
 	selector: 'button-preview-1-component',
 	template: `
-
-        <button pButton type="button" label="Click-1" class=></button>
+        <button pButton type="button" label="Click-1" ></button>
     `,
     styles: ['.ui-button-text { font-size:  25px; }'],
     directives: [Button]
@@ -14,4 +13,4 @@ import {Button} from 'primeng/primeng';
 export class ButtonPreview1Component {
 
     text: string;
-}
+} 
