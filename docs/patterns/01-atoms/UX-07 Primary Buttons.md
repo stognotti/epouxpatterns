@@ -10,7 +10,7 @@ status:  draft
 A button is a basic interaction in which clicking on this element triggers and action. 
 Actions might be divided as primary or secondary according to the main purpose of the process. Therefore, there are also primary and secondary buttons in order to properly represent these actions. 
 
-<my-app>Loading...</my-app>
+
 
 ### Behaviour
 
@@ -18,17 +18,25 @@ Actions might be divided as primary or secondary according to the main purpose o
 
 ![Enabled ](ux07resources/pbutton-e.png "Enabled ")
 
+<button-preview-1-component>Loading...</button-preview-1-component>
+
 #### Hovered and Focussed
 
 ![Hovered and Focussed](ux07resources/pbutton-hf.png "Hovered and Focussed")
+
+<button-preview-1-component>Loading...</button-preview-2-component>
 
 #### Pressed
 
 ![Pressed](ux07resources/pbutton-p.png "Pressed")
 
+<button-preview-1-component>Loading...</button-preview-3-component>
+
 #### Disabled
 
 ![Disabled](ux07resources/pbutton-d.png "Disabled")
+
+<button-preview-1-component>Loading...</button-preview-4-component>
 
 ### Proportions
 
