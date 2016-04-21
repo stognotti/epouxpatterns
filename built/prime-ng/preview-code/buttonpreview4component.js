@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'primeng/primeng'], function(exports_1, context_1) {
+System.register(["angular2/core", 'primeng/primeng'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -11,7 +11,7 @@ System.register(['angular2/core', 'primeng/primeng'], function(exports_1, contex
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1, primeng_1;
-    var AppComponent;
+    var ButtonPreview4Component;
     return {
         setters:[
             function (core_1_1) {
@@ -21,21 +21,21 @@ System.register(['angular2/core', 'primeng/primeng'], function(exports_1, contex
                 primeng_1 = primeng_1_1;
             }],
         execute: function() {
-            AppComponent = (function () {
-                function AppComponent() {
+            ButtonPreview4Component = (function () {
+                function ButtonPreview4Component() {
                 }
-                AppComponent = __decorate([
+                ButtonPreview4Component = __decorate([
                     core_1.Component({
-                        selector: 'my-app',
-                        template: "\n        <p>This is a live Angular 2 component</p>\n        <input type=\"text\" pInputText [(ngModel)]=\"text\" />\n        {{text}}\n    ",
-                        directives: [primeng_1.InputText]
+                        selector: 'button-preview-4-component',
+                        template: "\n        <button pButton type=\"button\" label=\"Click\"></button>\n    ",
+                        directives: [primeng_1.Button]
                     }), 
                     __metadata('design:paramtypes', [])
-                ], AppComponent);
-                return AppComponent;
+                ], ButtonPreview4Component);
+                return ButtonPreview4Component;
             }());
-            exports_1("AppComponent", AppComponent);
+            exports_1("ButtonPreview4Component", ButtonPreview4Component);
         }
     }
 });
-//# sourceMappingURL=app.component.js.map
+//# sourceMappingURL=buttonpreview4component.js.map
