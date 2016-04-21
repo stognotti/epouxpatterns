@@ -24,25 +24,25 @@ Actions might be divided as primary or secondary according to the main purpose o
 
 ![Hovered and Focussed](ux07resources/pbutton-hf.png "Hovered and Focussed")
 
-<button-preview-1-component>Loading...</button-preview-2-component>
+<button-preview-2-component>Loading...</button-preview-2-component>
 
 #### Pressed
 
 ![Pressed](ux07resources/pbutton-p.png "Pressed")
 
-<button-preview-1-component>Loading...</button-preview-3-component>
+<button-preview-3-component>Loading...</button-preview-3-component>
 
 #### Disabled
 
 ![Disabled](ux07resources/pbutton-d.png "Disabled")
 
-<button-preview-1-component>Loading...</button-preview-4-component>
+<button-preview-4-component>Loading...</button-preview-4-component>
 
 ### Proportions
 
 ![Proportions](ux07resources/pbutton-proportions.png "Proportions")
 
-<my-app>Loading...</my-app>
+
 
 ### Style
 
