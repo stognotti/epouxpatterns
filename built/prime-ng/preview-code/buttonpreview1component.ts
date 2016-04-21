@@ -7,10 +7,12 @@ import {Button} from 'primeng/primeng';
 	template: `
 	<style >
     .ui-button-text {
-    	font: 25px Awesome;
+    	font-size:  25px;
+      color:  #ffffffff;
+      
     }
     </style>
-        <button pButton type="button" label="Click"></button>
+        <button pButton type="button" label="Click 1" style="background-color: #3183BC"></button>
     `,
     directives: [Button]
 })
