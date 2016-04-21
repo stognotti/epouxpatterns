@@ -7,7 +7,6 @@ import {Button} from 'primeng/primeng';
 	template: `
         <button pButton type="button" label="Click-1" ></button>
     `,
-    styles: ['.ui-button-text { font-size:  25px; }'],
     directives: [Button]
 })
 export class ButtonPreview1Component {
