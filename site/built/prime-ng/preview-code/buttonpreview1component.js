@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'primeng/primeng'], function(exports_1, context_1) {
+System.register(["angular2/core", 'primeng/primeng'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -11,7 +11,7 @@ System.register(['angular2/core', 'primeng/primeng'], function(exports_1, contex
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1, primeng_1;
-    var AppComponent;
+    var ButtonPreview1Component;
     return {
         setters:[
             function (core_1_1) {
@@ -21,21 +21,22 @@ System.register(['angular2/core', 'primeng/primeng'], function(exports_1, contex
                 primeng_1 = primeng_1_1;
             }],
         execute: function() {
-            AppComponent = (function () {
-                function AppComponent() {
+            ButtonPreview1Component = (function () {
+                function ButtonPreview1Component() {
                 }
-                AppComponent = __decorate([
+                ButtonPreview1Component = __decorate([
                     core_1.Component({
-                        selector: 'my-app',
-                        template: "\n        <p>This is a live Angular 2 component</p>\n        <input type=\"text\" pInputText [(ngModel)]=\"text\" />\n        {{text}}\n    ",
-                        directives: [primeng_1.InputText]
+                        selector: 'button-preview-1-component',
+                        template: "\n\t<div style=\"font-size: 50px\">\n        <button pButton type=\"button\" label=\"Click-2\" ></button>\n    </div>\n    ",
+                        styles: ["\n    .ui-button-text {\n      font-size: 25px;\n    }\n    "],
+                        directives: [primeng_1.Button]
                     }), 
                     __metadata('design:paramtypes', [])
-                ], AppComponent);
-                return AppComponent;
+                ], ButtonPreview1Component);
+                return ButtonPreview1Component;
             }());
-            exports_1("AppComponent", AppComponent);
+            exports_1("ButtonPreview1Component", ButtonPreview1Component);
         }
     }
 });
-//# sourceMappingURL=app.component.js.map
+//# sourceMappingURL=buttonpreview1component.js.map

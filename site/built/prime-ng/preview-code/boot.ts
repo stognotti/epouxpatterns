@@ -1,7 +1,5 @@
 import {bootstrap}    from 'angular2/platform/browser';
 
-import {ButtonPreview1Component} from './buttonpreview1component';
-
 
 import {ButtonPreview1Component} from './buttonpreview1component';
 bootstrap(ButtonPreview1Component);
