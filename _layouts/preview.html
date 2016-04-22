@@ -1,0 +1,10 @@
+{% capture my-content %}{{ content }}{% endcapture %}
+
+<div  class="pl-preview">
+{{ my-content }}
+</div>
+<p style="display:block">
+{% highlight html %}
+{{ my-content }}
+{% endhighlight %}
+</p>
