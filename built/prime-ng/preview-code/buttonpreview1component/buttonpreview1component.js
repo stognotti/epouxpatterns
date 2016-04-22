@@ -27,8 +27,8 @@ System.register(["angular2/core", 'primeng/primeng'], function(exports_1, contex
                 ButtonPreview1Component = __decorate([
                     core_1.Component({
                         selector: 'button-preview-1-component',
-                        template: "\n\t<div style=\"font-size: 50px\">\n        <button pButton type=\"button\" label=\"Click-2\" ></button>\n    </div>\n    ",
-                        styles: ["\n    .ui-button-text {\n      font-size: 25px;\n    }\n    "],
+                        styleUrls: ['buttonpreview1component/buttonpreview1component.css'],
+                        templateUrl: 'buttonpreview1component/buttonpreview1component.html',
                         directives: [primeng_1.Button]
                     }), 
                     __metadata('design:paramtypes', [])

@@ -1,4 +1,4 @@
-System.register(['angular2/platform/browser', './buttonpreview1component', './buttonpreview2component', './buttonpreview3component', './buttonpreview4component'], function(exports_1, context_1) {
+System.register(['angular2/platform/browser', './buttonpreview1component/buttonpreview1component', './buttonpreview2component', './buttonpreview3component', './buttonpreview4component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var browser_1, buttonpreview1component_1, buttonpreview2component_1, buttonpreview3component_1, buttonpreview4component_1;
