@@ -1,18 +1,15 @@
 
-
-{% assign sorted_pages = site.pages | sort:"path" %}
-
-
-
-
 <nav class="pl-sidebar">
   <ul class="nav nav-stacked">
-
-        {% for p in sorted_pages %}
+{% for p in site.patterns  %}
             {% unless p.show_in_nav == false %}
               <li  {% if p.url == page.url %} class="active" {% endif %} ><a href="{{site.baseurl}}{{ p.url }}" >{{p.title}}</a> </li>
             {% endunless %}
-        {% endfor %}
+            
+{% endfor %}
 
   </ul>
 </nav>
+
+
+
