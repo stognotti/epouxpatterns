@@ -29,6 +29,13 @@ defaults:
       layout: "pattern"
 
 
+collections:
+  - patterns
+  output: true
+
+
+  
+
 
 
 
