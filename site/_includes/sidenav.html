@@ -9,7 +9,7 @@ v5:
 {% for node in sorted_pages %}
 
     <!--- get rid of /patterns and filename  --->
-    {% assign node_url_parts = node.url | split: '/' | shift | pop %}
+    {% assign node_url_parts = node.url | split: '/' | shift: 2 | pop %}
     {% for c in node_url_parts %}
       {{ c }}
     {% endfor %}
