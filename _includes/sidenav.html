@@ -10,6 +10,10 @@ v3:
 
 
     {% assign node_url_parts = node.url | split: '/' %}
+    {% for c in node_url_parts %}
+      {{ c }}
+    {% endfor %}
+    
     <!--- get rid of filename  --->
     {% capture node_url_parts %}{{ node_url_parts | pop | last }}{% endcapture %}
     
