@@ -3,7 +3,7 @@ layout: pattern
 title: UX-04-02 progress indicators
 key:  UX-04-02
 status:  draft 
-type: molecule
+type: 2molecule
 ---
 
 
