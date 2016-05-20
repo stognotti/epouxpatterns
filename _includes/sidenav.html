@@ -1,18 +1,46 @@
-{% assign sorted_patterns = site.patterns | sort:"type" %}
 
-v1
+
+
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+{% assign cat_list = "" | split:"|"  %}
+{% capture base_url %}{{ '/patterns/' }}{{ url_parts[2] }}{% endcapture %}
+v2: {{base_url}}
+
+{% assign sorted_pages = site.patterns | sort:"path" %}
+{% for node in sorted_pages %}
+
+  {% if node.url contains base_url %}
+    {% assign node_url_parts = node.url | split: '/' %}
+    {% capture cate %}{{ node_url_parts | pop | last }}{% endcapture %}
+      {% unless base_url contains cate %}
+        {% assign found = 0 %}
+        {% for item in cat_list %}
+          {% if found == 0 and item == cate %}
+              {% assign found = 1 %}
+          {% endif %}
+        {% endfor %}
+        {% if found == 0 %}
+            {% assign cat_list = cat_list | push: cate %}
+         {% endif %}
+      {% endunless %}
+  {% endif %}
+{% endfor %}
+
+
 
 <nav class="pl-sidebar">
   <ul class="nav nav-stacked">
-{% for p in sorted_patterns  %}
+    {% for c in cat_list %}
+      <li class="category">{{c}}</li>
+        {% for p in sorted_pages %}
+          {% if p.url contains c %}
             {% unless p.show_in_nav == false %}
               <li  {% if p.url == page.url %} class="active" {% endif %} ><a href="{{site.baseurl}}{{ p.url }}" >{{p.title}}</a> </li>
             {% endunless %}
-            
-{% endfor %}
-
+          {% endif %}
+        {% endfor %}
+    {% endfor %}
   </ul>
 </nav>
-
-
 
