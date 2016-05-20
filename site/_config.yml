@@ -30,8 +30,12 @@ defaults:
 
 
 collections:
-  - patterns
-  output: true
+  patterns:
+    output: true
+  
+
+
+
 
 
   
