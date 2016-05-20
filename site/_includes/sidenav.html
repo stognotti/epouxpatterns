@@ -2,7 +2,7 @@
 {% assign url_parts = page.url | split: '/' %}
 {% assign url_parts_size = url_parts | size %}
 {% assign cat_list = "" | split:"|"  %}
-{% capture base_url %}{{ '/docs/' }}{{ url_parts[2] }}{% endcapture %}
+{% capture base_url %}{{ '/patterns/' }}{{ url_parts[2] }}{% endcapture %}
 v15: {{base_url}}
 
 {% assign sorted_pages = site.pages | sort:"path" %}
