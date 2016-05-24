@@ -3,18 +3,24 @@
 
 {% assign cat_list = "" | split:"|"  %}
 
-v5: 
+v6: 
 
 {% assign sorted_pages = site.patterns | sort:"path" %}
 {% for node in sorted_pages %}
 
     <!--- get rid of /patterns and filename  --->
     {% assign node_url_parts = node.url | split: '/' | shift: 2 | pop %}
+    {% assign node_url_size = node_url_parts | size %}
     {% for c in node_url_parts %}
-      {{ c }}
+    <li  class="category">{{ c }}<ul>
     {% endfor %}
     
-  
+        {{ node.url }}
+    
+    
+        {% for i in (1..node_url_size) %}
+          </ul></li>
+        {% endfor %}
  
     
 
