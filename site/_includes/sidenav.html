@@ -3,7 +3,10 @@
 
 {% assign cat_list = "" | split:"|"  %}
 
-v6: 
+v7: 
+
+<nav class="pl-sidebar">
+  <ul class="nav nav-stacked">
 
 {% assign sorted_pages = site.patterns | sort:"path" %}
 {% for node in sorted_pages %}
@@ -15,8 +18,8 @@ v6:
     <li  class="category">{{ c }}<ul>
     {% endfor %}
     
-        {{ node.url }}
     
+             <li  {% if node.url == page.url %} class="active" {% endif %} ><a href="{{site.baseurl}}{{ node.url }}" >{{node.title}}</a> </li>    
     
         {% for i in (1..node_url_size) %}
           </ul></li>
@@ -25,6 +28,9 @@ v6:
     
 
 {% endfor %}
+
+</ul>
+</nav>
 
 
 
