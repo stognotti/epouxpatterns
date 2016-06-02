@@ -19,11 +19,9 @@ v11:
     {% assign node_url_parts = node.url | split: '/' | shift: 2 | pop %}
     {% assign node_url_size = node_url_parts | size %}
 
-    {% assign back_up = curr_depth | minus node_url_size %}
-     {% for y in (1..back_up) %}
-     up
-     {% endfor %}
-
+    {% assign back_up = curr_depth | minus: node_url_size %}
+ 
+{{back_up}}
 
     {% for c in node_url_parts %}
       {% assign curr_path = curr_path | push: c %}
