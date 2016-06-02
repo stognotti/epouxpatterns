@@ -20,7 +20,7 @@ v11:
     {% assign node_url_size = node_url_parts | size %}
 
     {% assign back_up = curr_depth | minus node_url_size %}
-     {% for y in (1..backup) %}
+     {% for y in (1..back_up) %}
      up
      {% endfor %}
 
