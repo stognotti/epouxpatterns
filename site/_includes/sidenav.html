@@ -3,13 +3,12 @@
 
 {% assign cat_list = "" | split:"|"  %}
 
-v11: 
+v13: 
 
 <nav class="pl-sidebar">
   <ul class="nav nav-stacked">
 
 {% assign sorted_pages = site.patterns | sort:"path" %}
-{% assign curr_depth = 0 %}
 
 
 
@@ -18,15 +17,21 @@ v11:
     <!--- get rid of /patterns and filename  --->
     {% assign node_url_parts = node.url | split: '/' | shift: 2 | pop %}
     {% assign node_url_size = node_url_parts | size %}
+    {% assign curr_depth = 0 %}
 
-    {% assign back_up = curr_depth | minus: node_url_size %}
- 
-{{back_up}}
+
 
     {% for c in node_url_parts %}
-      {% assign curr_path = curr_path | push: c %}
+      {% assign curr_depth = curr_depth | plus: 1  %}
+
 
       {% unless cat_list contains c %}
+
+         <!--- current nav doesnt contain this dir, so I will add it. But first, see if I need to go up --->
+        {{ curr_depth }}
+        {{ cat_list | size }}
+
+
         <li  class="category">{{ c }}<ul>
         {% assign cat_list = cat_list | push: c %}
       {% endunless %}
