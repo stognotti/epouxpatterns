@@ -3,12 +3,13 @@
 
 {% assign cat_list = "" | split:"|"  %}
 
-v10: 
+v11: 
 
 <nav class="pl-sidebar">
   <ul class="nav nav-stacked">
 
 {% assign sorted_pages = site.patterns | sort:"path" %}
+{% assign curr_depth = 0 %}
 
 
 
@@ -17,7 +18,16 @@ v10:
     <!--- get rid of /patterns and filename  --->
     {% assign node_url_parts = node.url | split: '/' | shift: 2 | pop %}
     {% assign node_url_size = node_url_parts | size %}
+
+    {% assign back_up = curr_depth | minus node_url_size %}
+     {% for y in (1..backup) %}
+     up
+     {% endfor %}
+
+
     {% for c in node_url_parts %}
+      {% assign curr_path = curr_path | push: c %}
+
       {% unless cat_list contains c %}
         <li  class="category">{{ c }}<ul>
         {% assign cat_list = cat_list | push: c %}
@@ -25,11 +35,10 @@ v10:
     {% endfor %}
     
     
-             <li  {% if node.url == page.url %} class="active" {% endif %} ><a href="{{site.baseurl}}{{ node.url }}" >{{node.title}}</a> </li>    
-    
+          <li  {% if node.url == page.url %} class="active" {% endif %} ><a href="{{site.baseurl}}{{ node.url }}" >{{node.title}}</a> </li>    
+          {% assign curr_depth = node_url_size %}    
 
- 
-    
+
 
 {% endfor %}
 
