@@ -1,15 +1,17 @@
 ---
 layout: pattern
-title: UX-03-036-1 Stickers
-key:  UX-03-036-1
+title: Stickers
+key:  UX-03-036-stickers
 status:  draft 
-type: 3molecule
+type: 3-molecule
 ---
 
 
 ### Description
 
-THE STICKERS
+The stickers are used in the task and dossier snippets as well as on the dossier cover page.
+
+Stickers indicate specific dossier status as well as the existence of specific documents. In the latter case, they are behaving as navigation links and clicking on them opens the dossier contents with filters applied to select the relevant type of documents indicated by the sticker itself (e.g. BIOM indicates the existence of bio-medical information and clicking on the sticker opens the dossier content - in the workspace - with the BIOM filter activated).
 
 ### Behaviour
 
