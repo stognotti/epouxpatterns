@@ -3,7 +3,7 @@
 
 {% assign cat_list = "" | split:"|"  %}
 
-v15: 
+v16: 
 
 <nav class="pl-sidebar">
   <ul class="nav nav-stacked">
@@ -28,12 +28,10 @@ v15:
       {% unless cat_list contains c %}
 
          <!--- current nav doesnt contain this dir, so I will add it. But first, see if I need to go up --->
-        {{ url_depth }}
-        {{ cat_list | size }}
 
       {% assign curr_depth = cat_list | size %}
       {% assign go_up = curr_depth |  minus: url_depth %}
-      {{ go_up }}
+      
         {% for i in (1..go_up) %}
           </ul></li>
   {% assign cat_list = cat_list | pop: 1 %}
