@@ -17,20 +17,26 @@ v13:
     <!--- get rid of /patterns and filename  --->
     {% assign node_url_parts = node.url | split: '/' | shift: 2 | pop %}
     {% assign node_url_size = node_url_parts | size %}
-    {% assign curr_depth = 0 %}
+    {% assign url_depth = -1 %}
 
 
 
     {% for c in node_url_parts %}
-      {% assign curr_depth = curr_depth | plus: 1  %}
+      {% assign url_depth = url_depth | plus: 1  %}
 
 
       {% unless cat_list contains c %}
 
          <!--- current nav doesnt contain this dir, so I will add it. But first, see if I need to go up --->
-        {{ curr_depth }}
+        {{ url_depth }}
         {{ cat_list | size }}
 
+      {% assign curr_depth = cat_list | size %}
+      {% assign go_up = curr_depth - url_depth %}
+      {{ go_up }}
+        {% for i in (1..go_up) %}
+          </ul></li>
+        {% endfor %}
 
         <li  class="category">{{ c }}<ul>
         {% assign cat_list = cat_list | push: c %}
