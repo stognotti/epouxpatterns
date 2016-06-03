@@ -36,6 +36,7 @@ v15:
       {{ go_up }}
         {% for i in (2..go_up) %}
           </ul></li>
+  {% assign cat_list = cat_list | pop: 1 %}
         {% endfor %}
 
         <li  class="category">{{ c }}<ul>
