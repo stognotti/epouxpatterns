@@ -9,6 +9,8 @@ type: 3molecule
 
 ### Description
 
+THE STICKERS
+
 ### Behaviour
 
 #### Enabled
