@@ -34,7 +34,7 @@ v15:
       {% assign curr_depth = cat_list | size %}
       {% assign go_up = curr_depth |  minus: url_depth %}
       {{ go_up }}
-        {% for i in (2..go_up) %}
+        {% for i in (1..go_up) %}
           </ul></li>
   {% assign cat_list = cat_list | pop: 1 %}
         {% endfor %}
