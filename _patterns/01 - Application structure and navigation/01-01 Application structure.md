@@ -1,44 +1,35 @@
 ---
 layout: pattern
-title: UX-01-01 Application structure
+title: 01-01 Application structure
 key:  UX-01-01
 status:  draft 
 type: organism
 ---
-
+<H1>Application structure</H1>
 
 ### Description
 
+The eDossier application is composed of several modules: management modules (workmanager, stockmanager, eStore, etc.) and dossier workspace. 
+
+The management modules are presenting the tasks that each actor of the process has to perform as well as a list of dossiers (in the case of the eStore). The dossier workspace keeps all dossier related information.
+
+
 ### Behaviour
 
-#### Enabled
-
-#### Hovered and Focussed
-
-#### Pressed
-
-#### Disabled
+![Window handling ](windowshandling.png "Windows handling ") 
 
 
 
+### Module Usage
 
-### Style
-
-| Status             | Element                                                  | Details                                 |
-| :------------------ |:--------------------------------------------------------:| ---------------------------------------:|
-| Enable             | ![Enabled  ](ux04resources/sdd-e2.png "Enabled ")  | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #EEEEEE  Strokeline: #CCCCCC |
-| Hovered & Focused &nbsp;&nbsp;&nbsp;&nbsp; | ![Enabled  ](ux04resources/sdd-hf2.png "Hovered & Focused ") | &nbsp;&nbsp;&nbsp;&nbsp; Font Awesome: 25px   Colour: #FFFFFF <br/>Background: #3183BC Strokeline: #CCCCCC	<br/>Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |
-| Pressed            | ![Pressed  ](ux04resources/sdd-p2.png "Pressed  ") | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #FFFFFF  Strokeline: #CCCCCC <br/>Dropshadow: Distance 2px Opacity: 12% Softness 1px  Direction 270 |
-| Disabled            | ![Disabled  ](ux04resources/sdd-d2.png "Disabled  ") | Font Awesome: 25px   Colour: #000000 Opacity: 54% <br/>Background: #FBFBFB |
-
-
-
-### Pattern Usage
-When there are several options to choose regarding a single concept. This solution saves space in the layout and gathers gather possible values from a list
-Display a list or menu and allow the user choosing one or several values from the list 
-
+The creation of new modules might be required when a new category of tasks is created. For instance, it is justifyable to create a new module for the classification tasks.
 
 
 ### Accessibility
 
+Keyboard navigation is required to manipulate windows. It should be based on the browsers standard functions.
+In addition, extra features will be forseen like the ability to close all open dossiers at once or to list all previously opened dossiers from the global navigation (include link) function.
+
 ### Responsiveness
+
+Windows should be responsive...
