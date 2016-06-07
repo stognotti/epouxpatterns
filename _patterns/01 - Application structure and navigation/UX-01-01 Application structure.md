@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: 01-01 Application structure
+title: UX-01-01 Application structure
 key:  UX-01-01
 status:  draft 
 type: organism
