@@ -1,5 +1,0 @@
-Default
-Good default mechanism (http://ui-patterns.com/patterns/GoodDefaults)
-Live preview (http://ui-patterns.com/patterns/LivePreview)
-Helpers
-Hints (also in forms)
