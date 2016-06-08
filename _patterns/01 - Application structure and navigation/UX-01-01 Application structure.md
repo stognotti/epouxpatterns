@@ -32,4 +32,4 @@ In addition, extra features will be forseen like the ability to close all open d
 
 ### Responsiveness
 
-Windows should be responsive...
+Windows should apply the same level of responsiveness as defined in the browser. Detailed responsiveness attributes should be defined on a case by case basis.
