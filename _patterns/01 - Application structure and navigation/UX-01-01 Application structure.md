@@ -9,7 +9,7 @@ type: organism
 
 ### Description
 
-The eDossier application is composed of several modules: management modules (workmanager, stockmanager, eStore, etc.) and dossier workspace. 
+The NEW eDossier application is composed of several modules: management modules (workmanager, stockmanager, eStore, etc.) and dossier workspace. 
 
 The management modules are presenting the tasks that each actor of the process has to perform as well as a list of dossiers (in the case of the eStore). The dossier workspace keeps all dossier related information.
 
