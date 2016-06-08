@@ -16,7 +16,7 @@ The management modules are presenting the tasks that each actor of the process h
 
 ### Behaviour
 
-![Window handling ](windowshandling.png "Windows handling ") 
+![Window handling ](./windowshandling.png "Windows handling ") 
 
 
 
@@ -32,4 +32,8 @@ In addition, extra features will be forseen like the ability to close all open d
 
 ### Responsiveness
 
+<<<<<<< HEAD
 Windows should apply the same level of responsiveness as defined in the browser. Detailed responsiveness attributes should be defined on a case by case basis.
+=======
+Windows should be responsive...
+>>>>>>> 820eb183b9cfa928512ece4d5f866d6dd5bde677
