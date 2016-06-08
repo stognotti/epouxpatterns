@@ -1,9 +1,9 @@
 ---
 layout: pattern
-title: UX-04-03 step indicator
-key:  UX-04-03
+title: UX-04-02 progress indicators
+key:  UX-04-02
 status:  draft 
-type: 1molecule
+type: molecule
 ---
 
 

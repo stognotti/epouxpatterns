@@ -3,7 +3,7 @@ layout: pattern
 title: UX-04-03 step indicator
 key:  UX-04-03
 status:  draft 
-type: 1molecule
+type: molecule
 ---
 
 

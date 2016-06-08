@@ -3,7 +3,7 @@ layout: pattern
 title: UX-04-01 feedback messages
 key:  UX-04-01
 status:  draft 
-type: 3molecule
+type: molecule
 ---
 
 
