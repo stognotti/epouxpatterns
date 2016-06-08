@@ -16,7 +16,7 @@ The management modules are presenting the tasks that each actor of the process h
 
 ### Behaviour
 
-![Window handling ](./windowshandling.png "Windows handling ") 
+![Window handling ](../../images/windowshandling.png "Windows handling ") 
 
 
 
